@@ -1,0 +1,16 @@
+.Footer{
+    background-color: black;
+    color: wheat;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Footer a{
+    text-decoration: none;
+    color: wheat;
+}
+
+.Footer h1{
+    padding: 10px 10px 10px 0px;
+    color: white;
+}

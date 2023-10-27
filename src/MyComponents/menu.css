@@ -1,0 +1,78 @@
+.introImg img {
+  width: 100%;
+}
+
+.menu {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.MenuList {
+  width: 70vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.menuTitle{
+  padding: 30px;
+}
+
+
+/* MENU ITEM STYLING */
+
+.MenuItem {
+  border-radius: 15px;
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.MenuItem h5 {
+  overflow: hidden;
+  z-index: 1;
+}
+
+.MenuItem:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.MenuItem img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  max-height: 200px;
+  background-position: center;
+
+}
+
+.MenuItem h5 {
+  padding-top: 23px;
+}
+
+.MenuItem h5,
+.MenuItem p {
+  margin-left: 20px;
+
+}
+
+@media only screen and (max-width: 1300px) {
+  .MenuList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .MenuList {
+    grid-template-columns: 1fr;
+  }
+}

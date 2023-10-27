@@ -1,0 +1,15 @@
+.container-fluid{
+    background-color: beige;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    width: 100%;
+
+}
+
+.search-bar{
+    width: max-content;
+}
+
+.search-bar input{
+    width: 100%;
+}
